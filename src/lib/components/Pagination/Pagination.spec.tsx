@@ -3,7 +3,7 @@ import userEvent from '@testing-library/user-event';
 import type { FC } from 'react';
 import { useEffect, useState } from 'react';
 import { describe, expect } from 'vitest';
-import { Pagination } from '.';
+import { Pagination } from './Pagination';
 
 describe('Pagination', () => {
   describe('Keyboard interactions', () => {
@@ -74,6 +74,22 @@ describe('Pagination', () => {
       render(<Pagination currentPage={1} layout="table" onPageChange={() => undefined} totalPages={5} />);
 
       expect(pages()).toHaveLength(0);
+    });
+
+    it('should change previous and next text when provided', () => {
+      render(
+        <Pagination
+          currentPage={1}
+          layout="navigation"
+          onPageChange={() => undefined}
+          totalPages={5}
+          previousLabel="Go back"
+          nextLabel="Go forward"
+        ></Pagination>,
+      );
+
+      expect(previousButton()).toHaveTextContent('Go back');
+      expect(nextButton()).toHaveTextContent('Go forward');
     });
   });
 });

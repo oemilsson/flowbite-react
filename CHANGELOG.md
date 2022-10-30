@@ -2,6 +2,56 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.2](https://github.com/themesberg/flowbite-react/compare/v0.3.1...v0.3.2) (2022-10-22)
+
+
+### Features
+
+* **classname:** more missing classnames access ([#406](https://github.com/themesberg/flowbite-react/issues/406)) ([9e40115](https://github.com/themesberg/flowbite-react/commit/9e4011554cc132fd24bff286955b5f2d6861e1f8))
+
+### [0.3.1](https://github.com/themesberg/flowbite-react/compare/v0.3.0...v0.3.1) (2022-10-22)
+
+
+### Features
+
+* **classname:** all components with classname access ([#405](https://github.com/themesberg/flowbite-react/issues/405)) ([99b4ceb](https://github.com/themesberg/flowbite-react/commit/99b4cebf5f92e8f3eb15851dcb0b6997c8606c47))
+
+
+### Bug Fixes
+
+* **avatar:** center avatar correctly ([#404](https://github.com/themesberg/flowbite-react/issues/404)) ([1027212](https://github.com/themesberg/flowbite-react/commit/1027212dc5e3d030c65b418c3710d07d577e4016))
+
+## [0.3.0](https://github.com/themesberg/flowbite-react/compare/v0.2.1...v0.3.0) (2022-10-22)
+
+### [0.2.1](https://github.com/themesberg/flowbite-react/compare/v0.2.0...v0.2.1) (2022-10-19)
+
+
+### Features
+
+* allow using initials as `Avatar` placeholder ([#375](https://github.com/themesberg/flowbite-react/issues/375)) ([e349d82](https://github.com/themesberg/flowbite-react/commit/e349d82ca1d0933ea037655022b38aa1b9836a33)), closes [#357](https://github.com/themesberg/flowbite-react/issues/357) [#357](https://github.com/themesberg/flowbite-react/issues/357) [#357](https://github.com/themesberg/flowbite-react/issues/357) [#357](https://github.com/themesberg/flowbite-react/issues/357)
+* **button:** added forwardRef to button component ([#391](https://github.com/themesberg/flowbite-react/issues/391)) ([3278c84](https://github.com/themesberg/flowbite-react/commit/3278c84ba15bc754032c4e248eb31e64d8bb53ff)), closes [#341](https://github.com/themesberg/flowbite-react/issues/341)
+* **themecontext:** exported theme hooks and updated docs ([#390](https://github.com/themesberg/flowbite-react/issues/390)) ([37644b7](https://github.com/themesberg/flowbite-react/commit/37644b7247a35ce15df0379425139585bc8ae27f)), closes [#389](https://github.com/themesberg/flowbite-react/issues/389)
+
+
+### Bug Fixes
+
+* **dropdown:** close dropdown when item is selected ([#392](https://github.com/themesberg/flowbite-react/issues/392)) ([05f5534](https://github.com/themesberg/flowbite-react/commit/05f5534e972c750b979f6eaa225a5f0f98738ffb)), closes [#349](https://github.com/themesberg/flowbite-react/issues/349) [#349](https://github.com/themesberg/flowbite-react/issues/349) [#349](https://github.com/themesberg/flowbite-react/issues/349)
+
+## [0.2.0](https://github.com/themesberg/flowbite-react/compare/v0.1.12...v0.2.0) (2022-10-11)
+
+
+### Bug Fixes
+
+* **button:** reduce the thickness of button outline ([#376](https://github.com/themesberg/flowbite-react/issues/376)) ([5ef0aef](https://github.com/themesberg/flowbite-react/commit/5ef0aeff0e90d4de47d1d1e9a954a792a473860d))
+* **storybook:** fix welcome page ([#377](https://github.com/themesberg/flowbite-react/issues/377)) ([d2518ad](https://github.com/themesberg/flowbite-react/commit/d2518adf4ace2d062a2f370b18994cd44cebbb42))
+
+### [0.1.12](https://github.com/themesberg/flowbite-react/compare/v0.1.11...v0.1.12) (2022-10-07)
+
+
+### Bug Fixes
+
+* Button doesn't fit to its parent width ([#370](https://github.com/themesberg/flowbite-react/issues/370)) ([15571aa](https://github.com/themesberg/flowbite-react/commit/15571aa27e7fe96b8aae6e6eaec22e03cab17814))
+
 ### [0.1.11](https://github.com/themesberg/flowbite-react/compare/v0.1.10...v0.1.11) (2022-09-13)
 
 
