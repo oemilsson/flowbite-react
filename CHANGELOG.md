@@ -2,6 +2,42 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.7](https://github.com/themesberg/flowbite-react/compare/v0.3.6...v0.3.7) (2022-12-06)
+
+
+### Bug Fixes
+
+* **toast:** ToastToggle must have className ([#471](https://github.com/themesberg/flowbite-react/issues/471)) ([5618b21](https://github.com/themesberg/flowbite-react/commit/5618b21626afa92fe64b99ef9b1f178724b61d4a))
+
+### [0.3.6](https://github.com/themesberg/flowbite-react/compare/v0.3.5...v0.3.6) (2022-12-02)
+
+
+### Features
+
+* **avatar:** adds color prop and test case for it ([#439](https://github.com/themesberg/flowbite-react/issues/439)) ([104d6fb](https://github.com/themesberg/flowbite-react/commit/104d6fb83bd48de696c2b79138640e747e5b020f)), closes [#409](https://github.com/themesberg/flowbite-react/issues/409) [#409](https://github.com/themesberg/flowbite-react/issues/409)
+
+### [0.3.5](https://github.com/themesberg/flowbite-react/compare/v0.3.4...v0.3.5) (2022-11-17)
+
+
+### Features
+
+* **components:** export components types ([#434](https://github.com/themesberg/flowbite-react/issues/434)) ([45ea65a](https://github.com/themesberg/flowbite-react/commit/45ea65a4e1e376b398f462d07b9a1f1ea2ca114b)), closes [#433](https://github.com/themesberg/flowbite-react/issues/433)
+
+### [0.3.4](https://github.com/themesberg/flowbite-react/compare/v0.3.3...v0.3.4) (2022-11-06)
+
+
+### Bug Fixes
+
+* **DarkThemeToggle:** should toggle the theme with `usePreferences` is false ([#417](https://github.com/themesberg/flowbite-react/issues/417)) ([#424](https://github.com/themesberg/flowbite-react/issues/424)) ([37244ff](https://github.com/themesberg/flowbite-react/commit/37244ff2bbdaecbea8a0bcce0243c8d6f2ee9151))
+
+### [0.3.3](https://github.com/themesberg/flowbite-react/compare/v0.3.2...v0.3.3) (2022-11-04)
+
+
+### Features
+
+* **breadcrumbitem:** add forwardRef to breadcrumb item ([#421](https://github.com/themesberg/flowbite-react/issues/421)) ([0e4ae62](https://github.com/themesberg/flowbite-react/commit/0e4ae62b2b93561c4857bea63df45fe9170f546e))
+* **sidebaritem:** add forwardRef to sidebar item ([#420](https://github.com/themesberg/flowbite-react/issues/420)) ([faca797](https://github.com/themesberg/flowbite-react/commit/faca797b0b8ce7a94b40a44019c7323e721af5e5)), closes [#397](https://github.com/themesberg/flowbite-react/issues/397)
+
 ### [0.3.2](https://github.com/themesberg/flowbite-react/compare/v0.3.1...v0.3.2) (2022-10-22)
 
 
